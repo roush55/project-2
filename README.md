@@ -1,24 +1,25 @@
 # README
+- Project #2: Full Stack Application.
+- Build Web Store Name (Y&L Ice-Cream).
+- User can see the store menu.
+- User should sign in to shop from the website.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Verion one 
+* Create Create Wire Frames ![WireFrames].
+* Create Entity Relationship Diagram[ERD](app/assets/images/image_from_ios_160.jpg)
 
-Things you may want to cover:
+# Steps 
+* Database creation .
+* Set up Ruby on Rails framework. 
+* Set up devise(User model).
+* Create Item model.
+* Create Join model.
 
-* Ruby version
 
-* System dependencies
+# Deployment
+- Deploy on Heroku.
+# Unsolved problems
+- Payment Method 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ # Useful Resources
+(https://guides.rubyonrails.org/getting_started.html)
