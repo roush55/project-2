@@ -4,7 +4,7 @@
 - User can see the store menu.
 - User should sign in to shop from the website.
 
-# Verion one 
+# Version one 
 * Create Create Wire Frames ![WireFrames].
 * Create Entity Relationship Diagram[ERD](app/assets/images/image_from_ios_160.jpg)
 
