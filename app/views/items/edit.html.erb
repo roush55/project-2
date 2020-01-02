@@ -1,0 +1,9 @@
+<%= form_for @item, url: {action: "update"} do |f|%>
+    <%= f.label :name%>
+    <%= f.text_field :name%>
+    <%= f.label :image%>
+    <%= f.text_field :image%>
+    <%= f.label :price%>
+    <%= f.number_field :price%>
+    <%= f.submit "Update"%>
+<%end%>

@@ -1,0 +1,6 @@
+<img src=<%=@item.image%> height=100 ,width=100>
+<h1><i>flavor:<%=@item.name%></i></h1>
+<p><i>price:<%=@item.price%></i></p><br><hr>
+<button><%= link_to 'Update', edit_item_path(@item) %></button>
+<button><%= link_to 'delete', item_path(@item), method: :delete%></button>
+<button><%= link_to 'add new', new_item_path(@item) %></button>

@@ -1,0 +1,27 @@
+
+
+ body{
+   background-color:rgb(230, 205, 175) !important;
+   font-family: 'Courier New', Courier, monospace !important;
+}
+.logo img{
+  position:fixed;
+  border-radius:100px;
+  width: 140px;
+  height: 140px;
+  top:50px;
+  right: 30px;
+}
+nav a{
+  color: white !important;
+}
+.yl{
+  position:absolute;
+
+  width: 200px;
+  height:200px;
+  left:50px;
+  z-index:-1;
+  opacity:.9;
+
+}

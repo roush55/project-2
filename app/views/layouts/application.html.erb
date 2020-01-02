@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project2</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+  </head>
+  
+  <body  class="<%= controller_name %> <%= action_name %>">
+    <div class=logo><%= link_to image_tag("yara.jpg"), yl_path %></div>
+    <nav class="navbar-dark bg-dark">
+    <%if(user_signed_in?)%>
+    <%= link_to " Sign Out" ,destroy_user_session_path, method: :delete%>
+    
+    <%else%>
+    <%=link_to "log in",new_user_session_path,method: :create%>
+    <%end%>
+     <%=link_to "Menu",root_path()%>
+    
+    </nav>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+
+<div class="container">
+<h1>Menu</h1>
+<% @items.each do |item|%>
+<p>
+<img src=<%=item.image%> height=50 , width=50>
+<i>flavor :<%=item.name%></i>
+<em>price:<%=item.price%>
+<br><br>
+<%= link_to "Add to cart", new_item_cart_path(item)%>
+
+</em></p>
+
+<hr>
+<%end%>
+
+<button><%= link_to 'add new', new_item_path%></button>
+</div>
+<%# <button><%= link_to 'delete', item_path(item), method: :delete%>
+<%# </button> %> 

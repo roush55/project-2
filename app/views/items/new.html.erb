@@ -1,0 +1,11 @@
+<%= form_for @item, url: {action: "create"} do |f|%>
+    <%= f.label :name%>
+    <%= f.text_field :name%>
+    <br>
+    <%= f.label :image%>
+    <%= f.text_field :image%>
+    <br>
+    <%= f.label :price%>
+    <%= f.number_field :price%>
+    <%= f.submit "Save"%>
+<% end %>

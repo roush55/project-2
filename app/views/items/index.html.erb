@@ -1,0 +1,8 @@
+
+<div class="container-fluid">
+<h1>Order</h1><hr>
+<% @carts.each do |cart| %>
+  <li><%=cart.item.name%> price:<%=cart.item.price%>sar</li>
+  <%=link_to "delete item",item_cart_path(cart.item, cart),method: :delete%>
+<% end %>
+</div>
