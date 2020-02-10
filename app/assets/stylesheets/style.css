@@ -1,27 +1,48 @@
 
 
  body{
-   background-color:rgb(230, 205, 175) !important;
+
    font-family: 'Courier New', Courier, monospace !important;
+   background-color: #F5F5F5 !important;
+   
 }
+
+nav{
+  background-color:rgb(75, 61, 75);
+  
+} 
 .logo img{
-  position:fixed;
+  position: fixed;
   border-radius:100px;
   width: 140px;
   height: 140px;
-  top:50px;
-  right: 30px;
+  right:50px;
+  z-index:99;
+  opacity: .9;
 }
-nav a{
+.navbar a{
   color: white !important;
+  font-size: 20px;
+  font-weight: 500;
 }
 .yl{
   position:absolute;
-
   width: 200px;
   height:200px;
   left:50px;
-  z-index:-1;
+  z-index:-2;
   opacity:.9;
 
+}
+
+.alert {
+  color: azure;
+}
+.notice{
+  color: azure;
+}
+
+#carouselExampleControls img{
+  height:40vh;
+ object-position: top;
 }
